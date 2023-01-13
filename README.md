@@ -1,3 +1,24 @@
+# Atividade Backend 10/01/2022
+
+Fork do API RESTful feito por Alessandro e modificado para adicionar a tabela de produtos, permitir que a api possa utilizar CRUD e relaciona-la com clientes.
+
+## Tecnologias
+- NodeJS 18.13.0
+- Express 4.18.2
+- Mariadb 10.6.11
+
+## Instalação
+Para executar a aplicação é necessário baixar os arquivos contidos no repositório `https://github.com/vimcless/fs06.git` e executar o comando `npm update`.
+
+## Modificações
+
+- Criado a API cujo endereço é http://localhost:8000/produtos
+- Criado GET utilizando clientes com interação com produtos (ex. http://localhost:8000/clientes/1/produtos)
+
+
+
+--------------------------------------------------
+
 # API REST
 > API REST feita para aprender ExpressJS e Banco de Dados
 

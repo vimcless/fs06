@@ -15,6 +15,9 @@ const rotas = {
     '/produtos': {
         'GET': produto.listar,
         'POST': produto.cadastrar,
+        'PATCH': produto.editar,
+        'DELETE': produto.excluir,
+
     },
 };
 

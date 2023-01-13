@@ -1,5 +1,5 @@
 const app = require('express').Router();
-const veiculoController = require('../controller/veiculoController');
+const veiculoController = require('../controller/produtoController');
 
 app.get('/veiculos', async (req, res) => {
     let dados = await veiculoController.listar();
