@@ -66,4 +66,7 @@ INSERT INTO tb_produto (marca,nome,preco,quantidade,descricao,especificacoes,cat
 VALUES 
 ('Brast','geladeira basic','1500.00','50','geladeira basica','tamanho baixinha','geladeira','---','1'),
 ('Sny','som','500.00','80','som','barulho medio','eletronico','---','2'),
-('','geladeira basic','1500.00','50','geladeira basica','tamanho baixinha','geladeira','---','5');
+('Bras3','geladeira basic','1500.00','50','geladeira basica','tamanho baixinha','geladeira','---','5');
+
+ALTER TABLE tb_produto
+    ADD FOREIGN KEY (cliente_id) REFERENCES tb_cliente(id);
